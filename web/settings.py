@@ -13,9 +13,10 @@ INTERNAL_IPS = ('127.0.0.1',)
 
 ROOT_TEMPLATE_DIR = PROJECT_ROOT_PATH + '/web/templates' #Path to '*PROJECT_DIR*/lib/public/templates'
 
-# DB_ENGINE = 'django.db.backends.postgresql_psycopg2'
-DB_ENGINE = 'django.db.backends.sqlite3'
-DB_NAME = PROJECT_ROOT_PATH + '/project-db.sqlite'
+DB_ENGINE = 'django.db.backends.postgresql_psycopg2'
+DB_NAME = 'postgrestest'
+# DB_ENGINE = 'django.db.backends.sqlite3'
+# DB_NAME = PROJECT_ROOT_PATH + '/project-db.sqlite'
 DB_USER = ''
 DB_PASSWORD = ''
 DB_HOST = ''
@@ -216,7 +217,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.flatpages',
-    'django.contrib.markup',
+    # 'django.contrib.markup',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
@@ -224,7 +225,6 @@ INSTALLED_APPS = (
 
     'accounts',
 
-	'south',
     'django_extensions',
 )
 
