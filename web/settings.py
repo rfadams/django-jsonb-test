@@ -224,6 +224,7 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
 
     'accounts',
+    'data',
 
     'django_extensions',
 )
