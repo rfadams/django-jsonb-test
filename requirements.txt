@@ -1,6 +1,7 @@
 dj-database-url==0.3.0
 -e git+https://github.com/django/django.git@449d1effb81152e54f482784cf7febe965007096#egg=Django-dev
 django-extensions==1.5.1
+-e git+https://github.com/rfadams/django-pgjsonb.git@83306700865ede4c508afe26e263a1268bc68819#egg=django_pgjsonb-master
 django-sslify==0.2.5
 django-storages==1.1.8
 djangorestframework==3.1.0
